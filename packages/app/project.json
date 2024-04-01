@@ -1,0 +1,8 @@
+{
+  "root": "packages/app",
+  "targets": {
+    "lint": {},
+    "test": {},
+    "storybook-generate": {}
+  }
+}

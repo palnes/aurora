@@ -1,0 +1,27 @@
+{
+  "root": "packages/tokens",
+  "targets": {
+    "storybook": {
+      "executor": "nx:run-commands",
+      "options": {
+        "commands": ["pnpm run watch", "pnpm run storybook"],
+        "cwd": "packages/tokens",
+        "parallel": true
+      }
+    },
+    "storybook.old": {
+      "executor": "nx:run-script",
+      "options": {
+        "script": "storybook"
+      },
+      "dependsOn": ["build"]
+    },
+    "build-storybook": {
+      "executor": "nx:run-script",
+      "options": {
+        "script": "build-storybook"
+      },
+      "dependsOn": ["build"]
+    }
+  }
+}

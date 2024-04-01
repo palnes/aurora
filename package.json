@@ -1,0 +1,18 @@
+{
+  "name": "@aurora/borealis",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "watch:web": "nx run-many -t storybook -p tokens,web --skipNxCache",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "nx": "18.2.1",
+    "nx-remotecache-azure": "^18.0.0"
+  }
+}

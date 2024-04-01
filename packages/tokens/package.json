@@ -1,0 +1,42 @@
+{
+  "name": "@aurora/tokens",
+  "version": "0.0.1",
+  "type": "module",
+  "exports": {
+    ".": "./src/lib/tokens.json",
+    "./css": "./src/lib/tokens.css",
+    "./nested": "./src/lib/tokens.nested.json"
+  },
+  "files": [
+    "src/lib"
+  ],
+  "scripts": {
+    "build": "node ./build-tokens.mjs",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0 --cache-location .eslintcache",
+    "storybook": "storybook dev -p 6007 --no-open",
+    "build-storybook": "storybook build",
+    "watch": "nx exec -- chokidar \"src/tokens/**/*\" \"build-tokens.mjs\" -c \"nx run tokens:build\""
+  },
+  "devDependencies": {
+    "@chromatic-com/storybook": "^1.2.25",
+    "@rollup/plugin-json": "^6.1.0",
+    "@storybook/addon-essentials": "^8.0.5",
+    "@storybook/addon-interactions": "^8.0.5",
+    "@storybook/addon-links": "^8.0.5",
+    "@storybook/addon-onboarding": "^8.0.5",
+    "@storybook/react": "^8.0.5",
+    "@storybook/react-vite": "^8.0.5",
+    "@storybook/test": "^8.0.5",
+    "@tokens-studio/sd-transforms": "^0.15.2",
+    "chokidar": "^3.6.0",
+    "chokidar-cli": "^3.0.0",
+    "concurrently": "^8.2.2",
+    "eslint-plugin-storybook": "^0.8.0",
+    "fast-glob": "^3.3.2",
+    "rollup-plugin-watch": "^1.0.4",
+    "storybook": "^8.0.5",
+    "style-dictionary": "4.0.0-prerelease.23",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0"
+  }
+}

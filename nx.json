@@ -1,0 +1,41 @@
+{
+  "$schema": "./node_modules/nx/schemas/nx-schema.json",
+  "tasksRunnerOptions": {
+    "default": {
+      "runner": "nx/tasks-runners/default",
+      "options": {
+        "cacheableOperations": ["build", "test", "lint", "build-storybook"]
+      }
+    },
+    "remote": {
+      "runner": "nx-remotecache-azure",
+      "options": {
+        "cacheableOperations": ["build", "test", "lint", "build-storybook"]
+      }
+    }
+  },
+  "targetDefaults": {
+    "lint": {
+      "outputs": ["{projectRoot}/.eslintcache"],
+      "cache": true
+    },
+    "test": {
+      "outputs": ["{projectRoot}/node_modules/.cache/jest"],
+      "cache": true
+    },
+    "build": {
+      "dependsOn": ["^build"],
+      "outputs": ["{projectRoot}/dist", "{projectRoot}/src/lib"]
+    },
+    "build-storybook": {
+      "dependsOn": ["^build-storybook"],
+      "outputs": ["{projectRoot}/storybook-static"],
+      "cache": true
+    },
+    "storybook-generate": {
+      "outputs": ["{projectRoot}/.storybook/storybook.requires.ts"],
+      "cache": true
+    }
+  },
+  "defaultBase": "main"
+}

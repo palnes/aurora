@@ -1,0 +1,12 @@
+{
+  "root": "packages/web",
+  "targets": {
+    "storybook": {
+      "executor": "nx:run-script",
+      "options": {
+        "script": "storybook"
+      },
+      "dependsOn": ["tokens:build"]
+    }
+  }
+}
