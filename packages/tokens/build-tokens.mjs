@@ -16,6 +16,7 @@ const sd = new StyleDictionary({
       prefix: "aurora",
       buildPath: "src/lib/",
       transformGroup: "tokens-studio",
+      transforms: ["name/kebab"],
       files: [
         {
           destination: "tokens.css",
@@ -24,6 +25,7 @@ const sd = new StyleDictionary({
       ],
       options: {
         showFileHeader: false,
+        outputReferences: true,
       },
     },
     js: {

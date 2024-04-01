@@ -9,7 +9,7 @@
 }
 .storybook-button--primary {
   color: white;
-  background-color: var(--auroraColorsBlue500);
+  background-color: var(--aurora-ref-colors-blue-500);
 }
 .storybook-button--secondary {
   color: #333;

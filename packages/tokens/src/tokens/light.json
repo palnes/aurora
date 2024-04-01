@@ -1,0 +1,12 @@
+{
+  "light": {
+    "background": {
+      "value": "{ref.colors.white}",
+      "type": "color"
+    },
+    "text": {
+      "value": "{ref.colors.black}",
+      "type": "color"
+    }
+  }
+}

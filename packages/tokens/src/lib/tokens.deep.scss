@@ -1,314 +1,329 @@
 
-$auroraColorsPink900: #702459 !default;
-$auroraColorsPink800: #97266d !default;
-$auroraColorsPink700: #b83280 !default;
-$auroraColorsPink600: #d53f8c !default;
-$auroraColorsPink500: #ed64a6 !default;
-$auroraColorsPink400: #f687b3 !default;
-$auroraColorsPink300: #fbb6ce !default;
-$auroraColorsPink200: #fed7e2 !default;
-$auroraColorsPink100: #fff5f8 !default;
-$auroraColorsPurple900: #44337a !default;
-$auroraColorsPurple800: #553c9a !default;
-$auroraColorsPurple700: #6b46c1 !default;
-$auroraColorsPurple600: #805ad5 !default;
-$auroraColorsPurple500: #9f7aea !default;
-$auroraColorsPurple400: #b794f4 !default;
-$auroraColorsPurple300: #d6bcfa !default;
-$auroraColorsPurple200: #e9d8fd !default;
-$auroraColorsPurple100: #faf5ff !default;
-$auroraColorsIndigo900: #3c366b !default;
-$auroraColorsIndigo800: #434190 !default;
-$auroraColorsIndigo700: #4c51bf !default;
-$auroraColorsIndigo600: #5a67d8 !default;
-$auroraColorsIndigo500: #667eea !default;
-$auroraColorsIndigo400: #7f9cf5 !default;
-$auroraColorsIndigo300: #a3bffa !default;
-$auroraColorsIndigo200: #c3dafe !default;
-$auroraColorsIndigo100: #ebf4ff !default;
-$auroraColorsBlue900: #2a4365 !default;
-$auroraColorsBlue800: #2c5282 !default;
-$auroraColorsBlue700: #2b6cb0 !default;
-$auroraColorsBlue600: #3182ce !default;
-$auroraColorsBlue500: #4299e1 !default;
-$auroraColorsBlue400: #63b3ed !default;
-$auroraColorsBlue300: #90cdf4 !default;
-$auroraColorsBlue200: #bee3f8 !default;
-$auroraColorsBlue100: #ebf8ff !default;
-$auroraColorsTeal900: #234e52 !default;
-$auroraColorsTeal800: #285e61 !default;
-$auroraColorsTeal700: #2c7a7b !default;
-$auroraColorsTeal600: #319795 !default;
-$auroraColorsTeal500: #38b2ac !default;
-$auroraColorsTeal400: #4fd1c5 !default;
-$auroraColorsTeal300: #81e6d9 !default;
-$auroraColorsTeal200: #b2f5ea !default;
-$auroraColorsTeal100: #e6fffa !default;
-$auroraColorsGreen900: #22543d !default;
-$auroraColorsGreen800: #276749 !default;
-$auroraColorsGreen700: #2f855a !default;
-$auroraColorsGreen600: #38a169 !default;
-$auroraColorsGreen500: #48bb78 !default;
-$auroraColorsGreen400: #68d391 !default;
-$auroraColorsGreen300: #9ae6b4 !default;
-$auroraColorsGreen200: #c6f6d5 !default;
-$auroraColorsGreen100: #f0fff4 !default;
-$auroraColorsYellow900: #744210 !default;
-$auroraColorsYellow800: #975a16 !default;
-$auroraColorsYellow700: #b7791f !default;
-$auroraColorsYellow600: #d69e2e !default;
-$auroraColorsYellow500: #ecc94b !default;
-$auroraColorsYellow400: #f6e05e !default;
-$auroraColorsYellow300: #faf089 !default;
-$auroraColorsYellow200: #fefcbf !default;
-$auroraColorsYellow100: #fffff0 !default;
-$auroraColorsOrange900: #7b341e !default;
-$auroraColorsOrange800: #9c4221 !default;
-$auroraColorsOrange700: #c05621 !default;
-$auroraColorsOrange600: #dd6b20 !default;
-$auroraColorsOrange500: #ed8936 !default;
-$auroraColorsOrange400: #f6ad55 !default;
-$auroraColorsOrange300: #fbd38d !default;
-$auroraColorsOrange200: #feebc8 !default;
-$auroraColorsOrange100: #fffaf0 !default;
-$auroraColorsRed900: hsl(0 87.8% 40.7%) !default;
-$auroraColorsRed800: hsl(0 87.8% 47.5%) !default;
-$auroraColorsRed700: hsl(0 87.8% 54.3%) !default;
-$auroraColorsRed600: hsl(0 87.8% 61.1%) !default;
-$auroraColorsRed500: #f56565 !default;
-$auroraColorsRed400: hsl(0 87.8% 71.1%) !default;
-$auroraColorsRed300: hsl(0 87.8% 74.3%) !default;
-$auroraColorsRed200: hsl(0 87.8% 77.5%) !default;
-$auroraColorsRed100: hsl(0 87.8% 80.7%) !default;
-$auroraColorsGray900: #1a202c !default;
-$auroraColorsGray800: #2d3748 !default;
-$auroraColorsGray700: #4a5568 !default;
-$auroraColorsGray600: #718096 !default;
-$auroraColorsGray500: #a0aec0 !default;
-$auroraColorsGray400: #cbd5e0 !default;
-$auroraColorsGray300: #e2e8f0 !default;
-$auroraColorsGray200: #edf2f7 !default;
-$auroraColorsGray100: #f7fafc !default;
-$auroraColorsWhite: #ffffff !default;
-$auroraColorsBlack: #000000 !default;
-$auroraExampleShadow: inset 0 4px 10px 0 rgba(0,0,0,0.4) !default;
-$auroraFontSizesBody: 16px !default;
-$auroraFontWeightsBodyBold: 700 !default;
-$auroraFontWeightsBodyRegular: 400 !default;
-$auroraFontWeightsHeadingBold: 700 !default;
-$auroraFontWeightsHeadingRegular: 400 !default;
-$auroraParagraphSpacingH2: 26 !default;
-$auroraParagraphSpacingH1: 32 !default;
-$auroraLetterSpacingDecreased: -0.05em !default;
-$auroraLetterSpacingIncreased: 1.5em !default;
-$auroraLetterSpacingDefault: 0 !default;
-$auroraLineHeightsBody: 1.4 !default;
-$auroraLineHeightsHeading: 1.1 !default;
-$auroraFontFamiliesBody: Roboto !default;
-$auroraFontFamiliesHeading: Inter !default;
-$auroraOpacityHigh: 0.9 !default;
-$auroraOpacityMd: 0.5 !default;
-$auroraOpacityLow: 0.1 !default;
-$auroraBorderRadiusXl: 16px !default;
-$auroraBorderRadiusLg: 8px !default;
-$auroraBorderRadiusSm: 4px !default;
-$auroraDimensionXs: 4px !default;
-$auroraDimensionScale: 2px !default;
-$auroraFontSizesXs: $auroraFontSizesBody * 0.65 !default;
-$auroraFontSizesSm: $auroraFontSizesBody * 0.85 !default;
-$auroraFontSizesH6: $auroraFontSizesBody * 1 !default;
-$auroraBorderRadiusMultiValue: $auroraBorderRadiusSm $auroraBorderRadiusLg !default; // You can have multiple values in a single radius token. Read more on these: https://docs.tokens.studio/available-tokens/border-radius-tokens#single--multiple-values
-$auroraSpacingXs: $auroraDimensionXs !default;
-$auroraDimensionSm: $auroraDimensionXs * $auroraDimensionScale !default;
-$auroraFontSizesH5: $auroraFontSizesH6 * 1.25 !default;
-$auroraSpacingMultiValue: $auroraDimensionSm $auroraDimensionXl !default; // You can have multiple values in a single spacing token. Read more on these: https://docs.tokens.studio/available-tokens/spacing-tokens#multi-value-spacing-tokens
-$auroraSpacingSm: $auroraDimensionSm !default;
-$auroraDimensionMd: $auroraDimensionSm * $auroraDimensionScale !default;
-$auroraFontSizesH4: $auroraFontSizesH5 * 1.25 !default;
-$auroraSpacingMd: $auroraDimensionMd !default;
-$auroraDimensionLg: $auroraDimensionMd * $auroraDimensionScale !default;
-$auroraFontSizesH3: $auroraFontSizesH4 * 1.25 !default;
-$auroraSpacingLg: $auroraDimensionLg !default;
-$auroraDimensionXl: $auroraDimensionLg * $auroraDimensionScale !default;
-$auroraFontSizesH2: $auroraFontSizesH3 * 1.25 !default;
-$auroraSpacingXl: $auroraDimensionXl !default;
-$auroraFontSizesH1: $auroraFontSizesH2 * 1.25 !default;
+$auroraRefExampleShadow: inset 0 4px 10px 0 rgba(0,0,0,0.4) !default;
+$auroraRefFontSizesBody: 16px !default;
+$auroraRefFontWeightsBodyBold: 700 !default;
+$auroraRefFontWeightsBodyRegular: 400 !default;
+$auroraRefFontWeightsHeadingBold: 700 !default;
+$auroraRefFontWeightsHeadingRegular: 400 !default;
+$auroraRefParagraphSpacingH2: 26 !default;
+$auroraRefParagraphSpacingH1: 32 !default;
+$auroraRefLetterSpacingDecreased: -0.05em !default;
+$auroraRefLetterSpacingIncreased: 1.5em !default;
+$auroraRefLetterSpacingDefault: 0 !default;
+$auroraRefLineHeightsBody: 1.4 !default;
+$auroraRefLineHeightsHeading: 1.1 !default;
+$auroraRefFontFamiliesBody: Roboto !default;
+$auroraRefFontFamiliesHeading: Inter !default;
+$auroraRefOpacityHigh: 0.9 !default;
+$auroraRefOpacityMd: 0.5 !default;
+$auroraRefOpacityLow: 0.1 !default;
+$auroraRefBorderRadiusXl: 16px !default;
+$auroraRefBorderRadiusLg: 8px !default;
+$auroraRefBorderRadiusSm: 4px !default;
+$auroraRefDimensionXs: 4px !default;
+$auroraRefDimensionScale: 2px !default;
+$auroraRefColorsPink900: #702459 !default;
+$auroraRefColorsPink800: #97266d !default;
+$auroraRefColorsPink700: #b83280 !default;
+$auroraRefColorsPink600: #d53f8c !default;
+$auroraRefColorsPink500: #ed64a6 !default;
+$auroraRefColorsPink400: #f687b3 !default;
+$auroraRefColorsPink300: #fbb6ce !default;
+$auroraRefColorsPink200: #fed7e2 !default;
+$auroraRefColorsPink100: #fff5f8 !default;
+$auroraRefColorsPurple900: #44337a !default;
+$auroraRefColorsPurple800: #553c9a !default;
+$auroraRefColorsPurple700: #6b46c1 !default;
+$auroraRefColorsPurple600: #805ad5 !default;
+$auroraRefColorsPurple500: #9f7aea !default;
+$auroraRefColorsPurple400: #b794f4 !default;
+$auroraRefColorsPurple300: #d6bcfa !default;
+$auroraRefColorsPurple200: #e9d8fd !default;
+$auroraRefColorsPurple100: #faf5ff !default;
+$auroraRefColorsIndigo900: #3c366b !default;
+$auroraRefColorsIndigo800: #434190 !default;
+$auroraRefColorsIndigo700: #4c51bf !default;
+$auroraRefColorsIndigo600: #5a67d8 !default;
+$auroraRefColorsIndigo500: #667eea !default;
+$auroraRefColorsIndigo400: #7f9cf5 !default;
+$auroraRefColorsIndigo300: #a3bffa !default;
+$auroraRefColorsIndigo200: #c3dafe !default;
+$auroraRefColorsIndigo100: #ebf4ff !default;
+$auroraRefColorsBlue900: #2a4365 !default;
+$auroraRefColorsBlue800: #2c5282 !default;
+$auroraRefColorsBlue700: #2b6cb0 !default;
+$auroraRefColorsBlue600: #3182ce !default;
+$auroraRefColorsBlue500: #4299e1 !default;
+$auroraRefColorsBlue400: #63b3ed !default;
+$auroraRefColorsBlue300: #90cdf4 !default;
+$auroraRefColorsBlue200: #bee3f8 !default;
+$auroraRefColorsBlue100: #ebf8ff !default;
+$auroraRefColorsTeal900: #234e52 !default;
+$auroraRefColorsTeal800: #285e61 !default;
+$auroraRefColorsTeal700: #2c7a7b !default;
+$auroraRefColorsTeal600: #319795 !default;
+$auroraRefColorsTeal500: #38b2ac !default;
+$auroraRefColorsTeal400: #4fd1c5 !default;
+$auroraRefColorsTeal300: #81e6d9 !default;
+$auroraRefColorsTeal200: #b2f5ea !default;
+$auroraRefColorsTeal100: #e6fffa !default;
+$auroraRefColorsGreen900: #22543d !default;
+$auroraRefColorsGreen800: #276749 !default;
+$auroraRefColorsGreen700: #2f855a !default;
+$auroraRefColorsGreen600: #38a169 !default;
+$auroraRefColorsGreen500: #48bb78 !default;
+$auroraRefColorsGreen400: #68d391 !default;
+$auroraRefColorsGreen300: #9ae6b4 !default;
+$auroraRefColorsGreen200: #c6f6d5 !default;
+$auroraRefColorsGreen100: #f0fff4 !default;
+$auroraRefColorsYellow900: #744210 !default;
+$auroraRefColorsYellow800: #975a16 !default;
+$auroraRefColorsYellow700: #b7791f !default;
+$auroraRefColorsYellow600: #d69e2e !default;
+$auroraRefColorsYellow500: #ecc94b !default;
+$auroraRefColorsYellow400: #f6e05e !default;
+$auroraRefColorsYellow300: #faf089 !default;
+$auroraRefColorsYellow200: #fefcbf !default;
+$auroraRefColorsYellow100: #fffff0 !default;
+$auroraRefColorsOrange900: #7b341e !default;
+$auroraRefColorsOrange800: #9c4221 !default;
+$auroraRefColorsOrange700: #c05621 !default;
+$auroraRefColorsOrange600: #dd6b20 !default;
+$auroraRefColorsOrange500: #ed8936 !default;
+$auroraRefColorsOrange400: #f6ad55 !default;
+$auroraRefColorsOrange300: #fbd38d !default;
+$auroraRefColorsOrange200: #feebc8 !default;
+$auroraRefColorsOrange100: #fffaf0 !default;
+$auroraRefColorsRed900: hsl(0 87.8% 40.7%) !default;
+$auroraRefColorsRed800: hsl(0 87.8% 47.5%) !default;
+$auroraRefColorsRed700: hsl(0 87.8% 54.3%) !default;
+$auroraRefColorsRed600: hsl(0 87.8% 61.1%) !default;
+$auroraRefColorsRed500: #f56565 !default;
+$auroraRefColorsRed400: hsl(0 87.8% 71.1%) !default;
+$auroraRefColorsRed300: hsl(0 87.8% 74.3%) !default;
+$auroraRefColorsRed200: hsl(0 87.8% 77.5%) !default;
+$auroraRefColorsRed100: hsl(0 87.8% 80.7%) !default;
+$auroraRefColorsGray900: #1a202c !default;
+$auroraRefColorsGray800: #2d3748 !default;
+$auroraRefColorsGray700: #4a5568 !default;
+$auroraRefColorsGray600: #718096 !default;
+$auroraRefColorsGray500: #a0aec0 !default;
+$auroraRefColorsGray400: #cbd5e0 !default;
+$auroraRefColorsGray300: #e2e8f0 !default;
+$auroraRefColorsGray200: #edf2f7 !default;
+$auroraRefColorsGray100: #f7fafc !default;
+$auroraRefColorsWhite: #ffffff !default;
+$auroraRefColorsBlack: #000000 !default;
+$auroraRefFontSizesXs: $auroraRefFontSizesBody * 0.65 !default;
+$auroraRefFontSizesSm: $auroraRefFontSizesBody * 0.85 !default;
+$auroraRefFontSizesH6: $auroraRefFontSizesBody * 1 !default;
+$auroraRefBorderRadiusMultiValue: $auroraRefBorderRadiusSm $auroraRefBorderRadiusLg !default; // You can have multiple values in a single radius token. Read more on these: https://docs.tokens.studio/available-tokens/border-radius-tokens#single--multiple-values
+$auroraRefSpacingXs: $auroraRefDimensionXs !default;
+$auroraRefDimensionSm: $auroraRefDimensionXs * $auroraRefDimensionScale !default;
+$auroraLightText: $auroraRefColorsBlack !default;
+$auroraLightBackground: $auroraRefColorsWhite !default;
+$auroraDarkText: $auroraRefColorsWhite !default;
+$auroraDarkBackground: $auroraRefColorsRed500 !default;
+$auroraRefFontSizesH5: $auroraRefFontSizesH6 * 1.25 !default;
+$auroraRefSpacingMultiValue: $auroraRefDimensionSm $auroraRefDimensionXl !default; // You can have multiple values in a single spacing token. Read more on these: https://docs.tokens.studio/available-tokens/spacing-tokens#multi-value-spacing-tokens
+$auroraRefSpacingSm: $auroraRefDimensionSm !default;
+$auroraRefDimensionMd: $auroraRefDimensionSm * $auroraRefDimensionScale !default;
+$auroraRefFontSizesH4: $auroraRefFontSizesH5 * 1.25 !default;
+$auroraRefSpacingMd: $auroraRefDimensionMd !default;
+$auroraRefDimensionLg: $auroraRefDimensionMd * $auroraRefDimensionScale !default;
+$auroraRefFontSizesH3: $auroraRefFontSizesH4 * 1.25 !default;
+$auroraRefSpacingLg: $auroraRefDimensionLg !default;
+$auroraRefDimensionXl: $auroraRefDimensionLg * $auroraRefDimensionScale !default;
+$auroraRefFontSizesH2: $auroraRefFontSizesH3 * 1.25 !default;
+$auroraRefSpacingXl: $auroraRefDimensionXl !default;
+$auroraRefFontSizesH1: $auroraRefFontSizesH2 * 1.25 !default;
 
 $tokens: (
-  'dimension': (
-    'scale': $auroraDimensionScale,
-    'xs': $auroraDimensionXs,
-    'sm': $auroraDimensionSm,
-    'md': $auroraDimensionMd,
-    'lg': $auroraDimensionLg,
-    'xl': $auroraDimensionXl
+  'dark': (
+    'background': $auroraDarkBackground,
+    'text': $auroraDarkText
   ),
-  'spacing': (
-    'xs': $auroraSpacingXs,
-    'sm': $auroraSpacingSm,
-    'md': $auroraSpacingMd,
-    'lg': $auroraSpacingLg,
-    'xl': $auroraSpacingXl,
-    'multi-value': $auroraSpacingMultiValue
+  'light': (
+    'background': $auroraLightBackground,
+    'text': $auroraLightText
   ),
-  'borderRadius': (
-    'sm': $auroraBorderRadiusSm,
-    'lg': $auroraBorderRadiusLg,
-    'xl': $auroraBorderRadiusXl,
-    'multi-value': $auroraBorderRadiusMultiValue
-  ),
-  'opacity': (
-    'low': $auroraOpacityLow,
-    'md': $auroraOpacityMd,
-    'high': $auroraOpacityHigh
-  ),
-  'fontFamilies': (
-    'heading': $auroraFontFamiliesHeading,
-    'body': $auroraFontFamiliesBody
-  ),
-  'lineHeights': (
-    'heading': $auroraLineHeightsHeading,
-    'body': $auroraLineHeightsBody
-  ),
-  'letterSpacing': (
-    'default': $auroraLetterSpacingDefault,
-    'increased': $auroraLetterSpacingIncreased,
-    'decreased': $auroraLetterSpacingDecreased
-  ),
-  'paragraphSpacing': (
-    'h1': $auroraParagraphSpacingH1,
-    'h2': $auroraParagraphSpacingH2
-  ),
-  'fontWeights': (
-    'headingRegular': $auroraFontWeightsHeadingRegular,
-    'headingBold': $auroraFontWeightsHeadingBold,
-    'bodyRegular': $auroraFontWeightsBodyRegular,
-    'bodyBold': $auroraFontWeightsBodyBold
-  ),
-  'fontSizes': (
-    'h1': $auroraFontSizesH1,
-    'h2': $auroraFontSizesH2,
-    'h3': $auroraFontSizesH3,
-    'h4': $auroraFontSizesH4,
-    'h5': $auroraFontSizesH5,
-    'h6': $auroraFontSizesH6,
-    'body': $auroraFontSizesBody,
-    'sm': $auroraFontSizesSm,
-    'xs': $auroraFontSizesXs
-  ),
-  'example-shadow': $auroraExampleShadow,
-  'colors': (
-    'black': $auroraColorsBlack,
-    'white': $auroraColorsWhite,
-    'gray': (
-      '100': $auroraColorsGray100,
-      '200': $auroraColorsGray200,
-      '300': $auroraColorsGray300,
-      '400': $auroraColorsGray400,
-      '500': $auroraColorsGray500,
-      '600': $auroraColorsGray600,
-      '700': $auroraColorsGray700,
-      '800': $auroraColorsGray800,
-      '900': $auroraColorsGray900
+  'ref': (
+    'description': 'Core tokens',
+    'colors': (
+      'black': $auroraRefColorsBlack,
+      'white': $auroraRefColorsWhite,
+      'gray': (
+        '100': $auroraRefColorsGray100,
+        '200': $auroraRefColorsGray200,
+        '300': $auroraRefColorsGray300,
+        '400': $auroraRefColorsGray400,
+        '500': $auroraRefColorsGray500,
+        '600': $auroraRefColorsGray600,
+        '700': $auroraRefColorsGray700,
+        '800': $auroraRefColorsGray800,
+        '900': $auroraRefColorsGray900
+      ),
+      'red': (
+        '100': $auroraRefColorsRed100,
+        '200': $auroraRefColorsRed200,
+        '300': $auroraRefColorsRed300,
+        '400': $auroraRefColorsRed400,
+        '500': $auroraRefColorsRed500,
+        '600': $auroraRefColorsRed600,
+        '700': $auroraRefColorsRed700,
+        '800': $auroraRefColorsRed800,
+        '900': $auroraRefColorsRed900
+      ),
+      'orange': (
+        '100': $auroraRefColorsOrange100,
+        '200': $auroraRefColorsOrange200,
+        '300': $auroraRefColorsOrange300,
+        '400': $auroraRefColorsOrange400,
+        '500': $auroraRefColorsOrange500,
+        '600': $auroraRefColorsOrange600,
+        '700': $auroraRefColorsOrange700,
+        '800': $auroraRefColorsOrange800,
+        '900': $auroraRefColorsOrange900
+      ),
+      'yellow': (
+        '100': $auroraRefColorsYellow100,
+        '200': $auroraRefColorsYellow200,
+        '300': $auroraRefColorsYellow300,
+        '400': $auroraRefColorsYellow400,
+        '500': $auroraRefColorsYellow500,
+        '600': $auroraRefColorsYellow600,
+        '700': $auroraRefColorsYellow700,
+        '800': $auroraRefColorsYellow800,
+        '900': $auroraRefColorsYellow900
+      ),
+      'green': (
+        '100': $auroraRefColorsGreen100,
+        '200': $auroraRefColorsGreen200,
+        '300': $auroraRefColorsGreen300,
+        '400': $auroraRefColorsGreen400,
+        '500': $auroraRefColorsGreen500,
+        '600': $auroraRefColorsGreen600,
+        '700': $auroraRefColorsGreen700,
+        '800': $auroraRefColorsGreen800,
+        '900': $auroraRefColorsGreen900
+      ),
+      'teal': (
+        '100': $auroraRefColorsTeal100,
+        '200': $auroraRefColorsTeal200,
+        '300': $auroraRefColorsTeal300,
+        '400': $auroraRefColorsTeal400,
+        '500': $auroraRefColorsTeal500,
+        '600': $auroraRefColorsTeal600,
+        '700': $auroraRefColorsTeal700,
+        '800': $auroraRefColorsTeal800,
+        '900': $auroraRefColorsTeal900
+      ),
+      'blue': (
+        '100': $auroraRefColorsBlue100,
+        '200': $auroraRefColorsBlue200,
+        '300': $auroraRefColorsBlue300,
+        '400': $auroraRefColorsBlue400,
+        '500': $auroraRefColorsBlue500,
+        '600': $auroraRefColorsBlue600,
+        '700': $auroraRefColorsBlue700,
+        '800': $auroraRefColorsBlue800,
+        '900': $auroraRefColorsBlue900
+      ),
+      'indigo': (
+        '100': $auroraRefColorsIndigo100,
+        '200': $auroraRefColorsIndigo200,
+        '300': $auroraRefColorsIndigo300,
+        '400': $auroraRefColorsIndigo400,
+        '500': $auroraRefColorsIndigo500,
+        '600': $auroraRefColorsIndigo600,
+        '700': $auroraRefColorsIndigo700,
+        '800': $auroraRefColorsIndigo800,
+        '900': $auroraRefColorsIndigo900
+      ),
+      'purple': (
+        '100': $auroraRefColorsPurple100,
+        '200': $auroraRefColorsPurple200,
+        '300': $auroraRefColorsPurple300,
+        '400': $auroraRefColorsPurple400,
+        '500': $auroraRefColorsPurple500,
+        '600': $auroraRefColorsPurple600,
+        '700': $auroraRefColorsPurple700,
+        '800': $auroraRefColorsPurple800,
+        '900': $auroraRefColorsPurple900
+      ),
+      'pink': (
+        '100': $auroraRefColorsPink100,
+        '200': $auroraRefColorsPink200,
+        '300': $auroraRefColorsPink300,
+        '400': $auroraRefColorsPink400,
+        '500': $auroraRefColorsPink500,
+        '600': $auroraRefColorsPink600,
+        '700': $auroraRefColorsPink700,
+        '800': $auroraRefColorsPink800,
+        '900': $auroraRefColorsPink900
+      )
     ),
-    'red': (
-      '100': $auroraColorsRed100,
-      '200': $auroraColorsRed200,
-      '300': $auroraColorsRed300,
-      '400': $auroraColorsRed400,
-      '500': $auroraColorsRed500,
-      '600': $auroraColorsRed600,
-      '700': $auroraColorsRed700,
-      '800': $auroraColorsRed800,
-      '900': $auroraColorsRed900
+    'dimension': (
+      'scale': $auroraRefDimensionScale,
+      'xs': $auroraRefDimensionXs,
+      'sm': $auroraRefDimensionSm,
+      'md': $auroraRefDimensionMd,
+      'lg': $auroraRefDimensionLg,
+      'xl': $auroraRefDimensionXl
     ),
-    'orange': (
-      '100': $auroraColorsOrange100,
-      '200': $auroraColorsOrange200,
-      '300': $auroraColorsOrange300,
-      '400': $auroraColorsOrange400,
-      '500': $auroraColorsOrange500,
-      '600': $auroraColorsOrange600,
-      '700': $auroraColorsOrange700,
-      '800': $auroraColorsOrange800,
-      '900': $auroraColorsOrange900
+    'spacing': (
+      'xs': $auroraRefSpacingXs,
+      'sm': $auroraRefSpacingSm,
+      'md': $auroraRefSpacingMd,
+      'lg': $auroraRefSpacingLg,
+      'xl': $auroraRefSpacingXl,
+      'multi-value': $auroraRefSpacingMultiValue
     ),
-    'yellow': (
-      '100': $auroraColorsYellow100,
-      '200': $auroraColorsYellow200,
-      '300': $auroraColorsYellow300,
-      '400': $auroraColorsYellow400,
-      '500': $auroraColorsYellow500,
-      '600': $auroraColorsYellow600,
-      '700': $auroraColorsYellow700,
-      '800': $auroraColorsYellow800,
-      '900': $auroraColorsYellow900
+    'borderRadius': (
+      'sm': $auroraRefBorderRadiusSm,
+      'lg': $auroraRefBorderRadiusLg,
+      'xl': $auroraRefBorderRadiusXl,
+      'multi-value': $auroraRefBorderRadiusMultiValue
     ),
-    'green': (
-      '100': $auroraColorsGreen100,
-      '200': $auroraColorsGreen200,
-      '300': $auroraColorsGreen300,
-      '400': $auroraColorsGreen400,
-      '500': $auroraColorsGreen500,
-      '600': $auroraColorsGreen600,
-      '700': $auroraColorsGreen700,
-      '800': $auroraColorsGreen800,
-      '900': $auroraColorsGreen900
+    'opacity': (
+      'low': $auroraRefOpacityLow,
+      'md': $auroraRefOpacityMd,
+      'high': $auroraRefOpacityHigh
     ),
-    'teal': (
-      '100': $auroraColorsTeal100,
-      '200': $auroraColorsTeal200,
-      '300': $auroraColorsTeal300,
-      '400': $auroraColorsTeal400,
-      '500': $auroraColorsTeal500,
-      '600': $auroraColorsTeal600,
-      '700': $auroraColorsTeal700,
-      '800': $auroraColorsTeal800,
-      '900': $auroraColorsTeal900
+    'fontFamilies': (
+      'heading': $auroraRefFontFamiliesHeading,
+      'body': $auroraRefFontFamiliesBody
     ),
-    'blue': (
-      '100': $auroraColorsBlue100,
-      '200': $auroraColorsBlue200,
-      '300': $auroraColorsBlue300,
-      '400': $auroraColorsBlue400,
-      '500': $auroraColorsBlue500,
-      '600': $auroraColorsBlue600,
-      '700': $auroraColorsBlue700,
-      '800': $auroraColorsBlue800,
-      '900': $auroraColorsBlue900
+    'lineHeights': (
+      'heading': $auroraRefLineHeightsHeading,
+      'body': $auroraRefLineHeightsBody
     ),
-    'indigo': (
-      '100': $auroraColorsIndigo100,
-      '200': $auroraColorsIndigo200,
-      '300': $auroraColorsIndigo300,
-      '400': $auroraColorsIndigo400,
-      '500': $auroraColorsIndigo500,
-      '600': $auroraColorsIndigo600,
-      '700': $auroraColorsIndigo700,
-      '800': $auroraColorsIndigo800,
-      '900': $auroraColorsIndigo900
+    'letterSpacing': (
+      'default': $auroraRefLetterSpacingDefault,
+      'increased': $auroraRefLetterSpacingIncreased,
+      'decreased': $auroraRefLetterSpacingDecreased
     ),
-    'purple': (
-      '100': $auroraColorsPurple100,
-      '200': $auroraColorsPurple200,
-      '300': $auroraColorsPurple300,
-      '400': $auroraColorsPurple400,
-      '500': $auroraColorsPurple500,
-      '600': $auroraColorsPurple600,
-      '700': $auroraColorsPurple700,
-      '800': $auroraColorsPurple800,
-      '900': $auroraColorsPurple900
+    'paragraphSpacing': (
+      'h1': $auroraRefParagraphSpacingH1,
+      'h2': $auroraRefParagraphSpacingH2
     ),
-    'pink': (
-      '100': $auroraColorsPink100,
-      '200': $auroraColorsPink200,
-      '300': $auroraColorsPink300,
-      '400': $auroraColorsPink400,
-      '500': $auroraColorsPink500,
-      '600': $auroraColorsPink600,
-      '700': $auroraColorsPink700,
-      '800': $auroraColorsPink800,
-      '900': $auroraColorsPink900
-    )
+    'fontWeights': (
+      'headingRegular': $auroraRefFontWeightsHeadingRegular,
+      'headingBold': $auroraRefFontWeightsHeadingBold,
+      'bodyRegular': $auroraRefFontWeightsBodyRegular,
+      'bodyBold': $auroraRefFontWeightsBodyBold
+    ),
+    'fontSizes': (
+      'h1': $auroraRefFontSizesH1,
+      'h2': $auroraRefFontSizesH2,
+      'h3': $auroraRefFontSizesH3,
+      'h4': $auroraRefFontSizesH4,
+      'h5': $auroraRefFontSizesH5,
+      'h6': $auroraRefFontSizesH6,
+      'body': $auroraRefFontSizesBody,
+      'sm': $auroraRefFontSizesSm,
+      'xs': $auroraRefFontSizesXs
+    ),
+    'example-shadow': $auroraRefExampleShadow
   )
 );

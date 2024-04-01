@@ -1,5 +1,5 @@
 import { Meta, ColorPalette, ColorItem, Title } from "@storybook/blocks";
-import { colors } from "../../lib/tokens.nested.json";
+import { ref } from "./lib/tokens.nested.json";
 
 <Meta title="Primitives/Colors" />
 
@@ -8,7 +8,7 @@ import { colors } from "../../lib/tokens.nested.json";
 <ColorPalette>
   <ColorItem
     title="Base Colors"
-    colors={{ White: colors.white, Black: colors.black }}
+    colors={{ White: ref.colors.white, Black: ref.colors.black }}
   />
 </ColorPalette>
 
@@ -16,7 +16,7 @@ import { colors } from "../../lib/tokens.nested.json";
   <ColorItem
     title="Gray"
     subtitle="Grays for all your daily needs"
-    colors={colors.gray}
+    colors={ref.colors.gray}
   />
 </ColorPalette>
 
@@ -24,7 +24,7 @@ import { colors } from "../../lib/tokens.nested.json";
   <ColorItem
     title="Red"
     subtitle="Reds for all your daily needs"
-    colors={colors.red}
+    colors={ref.colors.red}
   />
 </ColorPalette>
 
@@ -32,7 +32,7 @@ import { colors } from "../../lib/tokens.nested.json";
   <ColorItem
     title="Orange"
     subtitle="Oranges for all your daily needs"
-    colors={colors.orange}
+    colors={ref.colors.orange}
   />
 </ColorPalette>
 
@@ -40,7 +40,7 @@ import { colors } from "../../lib/tokens.nested.json";
   <ColorItem
     title="Yellow"
     subtitle="Yellows for all your daily needs"
-    colors={colors.yellow}
+    colors={ref.colors.yellow}
   />
 </ColorPalette>
 
@@ -48,7 +48,7 @@ import { colors } from "../../lib/tokens.nested.json";
   <ColorItem
     title="Green"
     subtitle="Greens for all your daily needs"
-    colors={colors.green}
+    colors={ref.colors.green}
   />
 </ColorPalette>
 
@@ -56,7 +56,7 @@ import { colors } from "../../lib/tokens.nested.json";
   <ColorItem
     title="Teal"
     subtitle="Teals for all your daily needs"
-    colors={colors.teal}
+    colors={ref.colors.teal}
   />
 </ColorPalette>
 
@@ -64,7 +64,7 @@ import { colors } from "../../lib/tokens.nested.json";
   <ColorItem
     title="Blue"
     subtitle="Blues for all your daily needs"
-    colors={colors.blue}
+    colors={ref.colors.blue}
   />
 </ColorPalette>
 
@@ -72,7 +72,7 @@ import { colors } from "../../lib/tokens.nested.json";
   <ColorItem
     title="Indigo"
     subtitle="Indigos for all your daily needs"
-    colors={colors.indigo}
+    colors={ref.colors.indigo}
   />
 </ColorPalette>
 
@@ -80,7 +80,7 @@ import { colors } from "../../lib/tokens.nested.json";
   <ColorItem
     title="Purple"
     subtitle="Purples for all your daily needs"
-    colors={colors.purple}
+    colors={ref.colors.purple}
   />
 </ColorPalette>
 
@@ -88,6 +88,6 @@ import { colors } from "../../lib/tokens.nested.json";
   <ColorItem
     title="Pink"
     subtitle="Pinks for all your daily needs"
-    colors={colors.pink}
+    colors={ref.colors.pink}
   />
 </ColorPalette>
