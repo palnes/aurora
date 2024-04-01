@@ -2,6 +2,18 @@
   "root": "packages/web",
   "targets": {
     "storybook": {
+      "executor": "nx:run-commands",
+      "options": {
+        "commands": [
+          "nx run tokens:storybook",
+          // Silly race condition
+          "sleep 1 && pnpm run storybook"
+        ],
+        "cwd": "packages/web",
+        "parallel": true
+      }
+    },
+    "npm:storybook": {
       "executor": "nx:run-script",
       "options": {
         "script": "storybook"
