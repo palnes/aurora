@@ -4,6 +4,7 @@
   "description": "",
   "private": true,
   "main": "index.js",
+  "packageManager": "pnpm@8.15.6+sha1.8105075ad0aa306138be128c017e9c41e28ecffa",
   "scripts": {
     "watch:web": "nx run-many -t storybook -p tokens,web --skipNxCache",
     "test": "echo \"Error: no test specified\" && exit 1"
