@@ -52,8 +52,14 @@ Nx will ensure that tasks are run in the correct order. For example, when buildi
 ### Sample commands
 
 ```
-# Fire up storybook for web and tokens
-nx run-many -t storybook -p web,tokens
+# Build web project
+nx run web:test
+
+# Test app project
+nx run web:test
+
+# Start web storybook (also starts the tokens:storybook)
+nx run web:storybook
 
 # Build all projects
 nx run-many -t build
