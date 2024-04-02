@@ -1,8 +1,13 @@
 {
   "root": "packages/app",
   "targets": {
-    "lint": {},
-    "test": {},
-    "storybook-generate": {}
+    "storybook": {
+      "executor": "nx:run-commands",
+      "options": {
+        "commands": ["nx run tokens:watch", "pnpm run storybook"],
+        "cwd": "packages/app",
+        "parallel": true
+      }
+    }
   }
 }

@@ -4,9 +4,11 @@ Basic design system setup
 
 ## About
 
-This project aims to create a design **system** implemented with Design Tokens and acomponent system for React and React Native.
+This project aims to create a design **system** implemented with Design Tokens
+and a component system for React and React Native.
 
-All display of design tokens and components is done via their respective Storybooks.
+All display of design tokens and components is done via their respective
+Storybooks.
 
 ## Current state
 
@@ -34,29 +36,49 @@ All display of design tokens and components is done via their respective Storybo
   - [x] Optional Cache on Azure
 - [ ] Changesets
 
-## Requirements
+## Requirements and installation
 
 - [pnpm](https://pnpm.io)
 - [Nx](https://nx.dev/) - `pnpm add --global nx@latest`
 - [XCode](https://developer.apple.com/xcode/) with a working iOS simulator
-- [Android Studio](https://developer.android.com/studio) with a working Android simulator
+- [Android Studio](https://developer.android.com/studio) with a working Android
+  simulator
+
+### CocoaPods
+
+```sh
+# If you haven't already
+brew install cocoapods
+
+# Install iOS Pods
+cd packages/app/ios
+# This is only needed when setting up
+# the project for the first time.
+bundle install
+
+# Then run, then repeat this command whenever you update a Pod
+pod install
+```
 
 ## Getting started (Command cheatsheet)
 
 First off, run `pnpm install`. Wait for a few seconds.
 
-For the most part, this is the only `pnpm` command you should need to use. Most other commands should be done with [Nx](https://nx.dev/).
+For the most part, this is the only `pnpm` command you should need to use. Most
+other commands should be done with [Nx](https://nx.dev/).
 
-Nx will ensure that tasks are run in the correct order. For example, when building web, it needs to build tokens first. Nx orchestrates this for you, so you don't have to think about it.
+Nx will ensure that tasks are run in the correct order. For example, when
+building web, it needs to build tokens first. Nx orchestrates this for you, so
+you don't have to think about it.
 
 ### Sample commands
 
-```
+```sh
 # Build web project
-nx run web:test
+nx run web:build
 
 # Test app project
-nx run web:test
+nx run app:test
 
 # Start web storybook (also starts the tokens:storybook)
 nx run web:storybook
@@ -69,21 +91,26 @@ nx run-many -t lint test build
 
 # Run Storybook on tokens only
 nx run tokens:storybook
-```
-
-If you for some reason want to skip the Nx task resolutions, simply run the tasks manually with `pnpm` in the respective projects:
 
 ```
+
+If you for some reason want to skip the Nx task resolutions, simply run the
+tasks manually with `pnpm` in the respective projects:
+
+```sh
 # In packages/web, will not build packages/tokens first
 pnpm run build
 ```
 
 ### Nx Cache
 
-The project has been set up with a custom cache on Azure. Copy `.env.example` to `.env` and fill out the `NXCACHE_AZURE_SAS_URL` with information given to you by **Pål** on request.
+The project has been set up with a custom cache on Azure. Copy `.env.example` to
+`.env` and fill out the `NXCACHE_AZURE_SAS_URL` with information given to you by
+**Pål** on request.
 
-If you think the cache is not producing your expected results, you can skip caching with the `--skipNxCache` option.
+If you think the cache is not producing your expected results, you can skip
+caching with the `--skipNxCache` option.
 
-```
+```sh
 nx run-many -t build --skipNxCache
 ```

@@ -7,9 +7,13 @@
   ],
   "scripts": {
     "build": "tsc -b tsconfig.build.json",
-    "start": "react-native start",
+    "start": "nx run app:storybook",
+    "dev": "react-native start",
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
     "test": "jest",
     "lint": "eslint . --cache --cache-location .eslintcache",
+    "storybook": "react-native start",
     "storybook-generate": "sb-rn-get-stories"
   },
   "peerDependencies": {
