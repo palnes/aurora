@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "type": "module",
   "scripts": {
+    "start": "nx run web:storybook",
     "build": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0 --cache-location .eslintcache",
     "storybook": "storybook dev -p 6006 --no-open",
