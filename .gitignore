@@ -132,6 +132,7 @@ dist
 #
 .DS_Store
 
-
+# IntelliJ files
+.idea
 
 .nx/cache
