@@ -25,7 +25,8 @@
     },
     "build": {
       "dependsOn": ["^build"],
-      "outputs": ["{projectRoot}/dist", "{projectRoot}/src/lib"]
+      "outputs": ["{projectRoot}/dist", "{projectRoot}/src/lib"],
+      "cache": true
     },
     "build-storybook": {
       "dependsOn": ["^build-storybook"],
