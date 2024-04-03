@@ -1,26 +1,21 @@
-import StyleDictionary from "style-dictionary";
-import { registerTransforms } from "@tokens-studio/sd-transforms";
-import glob from "fast-glob";
+import StyleDictionary from 'style-dictionary';
+import { registerTransforms } from '@tokens-studio/sd-transforms';
+import glob from 'fast-glob';
 
 registerTransforms(StyleDictionary, {});
 
 const sd = new StyleDictionary({
-  source: glob.sync([
-    "src/**/*.json",
-    "!src/lib/*.json",
-    "!src/lib/$theme.json",
-    "!src/lib/$metadata.json",
-  ]),
+  source: glob.sync(['src/**/*.json', '!src/lib/*.json']),
   platforms: {
     css: {
-      prefix: "aurora",
-      buildPath: "src/lib/",
-      transformGroup: "tokens-studio",
-      transforms: ["name/kebab"],
+      prefix: 'aurora',
+      buildPath: 'src/lib/',
+      transformGroup: 'tokens-studio',
+      transforms: ['name/kebab'],
       files: [
         {
-          destination: "tokens.css",
-          format: "css/variables",
+          destination: 'tokens.css',
+          format: 'css/variables',
         },
       ],
       options: {
@@ -29,14 +24,14 @@ const sd = new StyleDictionary({
       },
     },
     js: {
-      prefix: "aurora",
-      transformGroup: "tokens-studio",
-      buildPath: "src/lib/",
+      prefix: 'aurora',
+      transformGroup: 'tokens-studio',
+      buildPath: 'src/lib/',
       files: [
         {
-          destination: "tokens.js",
-          format: "javascript/es6",
-          name: "tokens",
+          destination: 'tokens.js',
+          format: 'javascript/es6',
+          name: 'tokens',
         },
       ],
       options: {
@@ -44,32 +39,32 @@ const sd = new StyleDictionary({
       },
     },
     json: {
-      buildPath: "src/lib/",
-      prefix: "aurora",
-      transformGroup: "tokens-studio",
+      buildPath: 'src/lib/',
+      prefix: 'aurora',
+      transformGroup: 'tokens-studio',
       files: [
         {
-          destination: "tokens.nested.json",
-          format: "json/nested",
+          destination: 'tokens.nested.json',
+          format: 'json/nested',
         },
         {
-          destination: "tokens.asset.json",
-          format: "json/asset",
+          destination: 'tokens.asset.json',
+          format: 'json/asset',
         },
         {
-          destination: "tokens.flat.json",
-          format: "json/flat",
+          destination: 'tokens.flat.json',
+          format: 'json/flat',
         },
         {
-          destination: "tokens.json",
-          format: "json",
+          destination: 'tokens.json',
+          format: 'json',
         },
       ],
     },
     scss: {
-      buildPath: "src/lib/",
-      prefix: "aurora",
-      transformGroup: "tokens-studio",
+      buildPath: 'src/lib/',
+      prefix: 'aurora',
+      transformGroup: 'tokens-studio',
       options: {
         showFileHeader: false,
         outputReferences: true,
@@ -77,20 +72,20 @@ const sd = new StyleDictionary({
       },
       files: [
         {
-          destination: "tokens.flat.scss",
-          format: "scss/map-flat",
+          destination: 'tokens.flat.scss',
+          format: 'scss/map-flat',
         },
         {
-          destination: "tokens.deep.scss",
-          format: "scss/map-deep",
+          destination: 'tokens.deep.scss',
+          format: 'scss/map-deep',
         },
         {
-          destination: "tokens.scss",
-          format: "scss/variables",
+          destination: 'tokens.scss',
+          format: 'scss/variables',
         },
         {
-          destination: "tokens.icons.scss",
-          format: "scss/icons",
+          destination: 'tokens.icons.scss',
+          format: 'scss/icons',
         },
       ],
     },
