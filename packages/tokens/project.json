@@ -4,7 +4,7 @@
     "storybook": {
       "executor": "nx:run-commands",
       "options": {
-        "commands": ["pnpm run watch", "pnpm run storybook"],
+        "commands": ["pnpm run build", "pnpm run watch", "pnpm run storybook"],
         "cwd": "packages/tokens",
         "parallel": true
       }
