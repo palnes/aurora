@@ -7,7 +7,7 @@
         "commands": [
           "nx run tokens:storybook",
           // Silly race condition
-          "sleep 1 && pnpm run storybook"
+          "sleep 5 && pnpm run storybook"
         ],
         "cwd": "packages/web",
         "parallel": true
