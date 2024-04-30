@@ -1,5 +1,5 @@
 {
-  "root": "packages/app",
+  "root": "libs/app",
   "namedInputs": {
     "default": ["{projectRoot}/**/*", "sharedGlobals"],
     "production": [
@@ -19,7 +19,7 @@
       "executor": "nx:run-commands",
       "options": {
         "commands": ["nx run tokens:watch", "pnpm run storybook"],
-        "cwd": "packages/app",
+        "cwd": "libs/app",
         "parallel": true
       }
     }

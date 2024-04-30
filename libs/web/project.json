@@ -1,5 +1,5 @@
 {
-  "root": "packages/web",
+  "root": "libs/web",
   "targets": {
     "storybook": {
       "executor": "nx:run-commands",
@@ -9,7 +9,7 @@
           // Silly race condition
           "sleep 5 && pnpm run storybook"
         ],
-        "cwd": "packages/web",
+        "cwd": "libs/web",
         "parallel": true
       }
     },

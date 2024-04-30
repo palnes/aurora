@@ -4,10 +4,10 @@
   "description": "",
   "private": true,
   "main": "index.js",
-  "packageManager": "pnpm@8.15.6+sha1.8105075ad0aa306138be128c017e9c41e28ecffa",
   "scripts": {
-    "watch:web": "nx run-many -t storybook -p tokens,web --skipNxCache",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "watch:web": "nx run-many -t storybook -p tokens,web",
+    "test": "nx run-many -t test",
+    "lint": "nx run-many -t lint"
   },
   "keywords": [],
   "author": "",
@@ -15,5 +15,6 @@
   "devDependencies": {
     "nx": "18.2.1",
     "nx-remotecache-azure": "^18.0.0"
-  }
+  },
+  "packageManager": "pnpm@9.0.6+sha256.0624e30eff866cdeb363b15061bdb7fd9425b17bc1bb42c22f5f4efdea21f6b3"
 }
