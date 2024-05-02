@@ -1,1 +1,1 @@
-pnpm test
+nx format:check
