@@ -7,13 +7,15 @@
   "scripts": {
     "watch:web": "nx run-many -t storybook -p tokens,web",
     "test": "nx run-many -t test",
-    "lint": "nx run-many -t lint"
+    "lint": "nx run-many -t lint",
+    "prepare": "husky"
   },
   "keywords": [],
   "author": "",
   "license": "UNLICENSED",
   "devDependencies": {
     "@nx/workspace": "18.2.1",
+    "husky": "^9.0.11",
     "nx": "18.2.1",
     "nx-remotecache-azure": "^18.0.0"
   },
