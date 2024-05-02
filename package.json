@@ -13,6 +13,7 @@
   "author": "",
   "license": "UNLICENSED",
   "devDependencies": {
+    "@nx/workspace": "18.2.1",
     "nx": "18.2.1",
     "nx-remotecache-azure": "^18.0.0"
   },

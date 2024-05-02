@@ -6,7 +6,6 @@
       "options": {
         "commands": [
           "nx run tokens:storybook",
-          // Silly race condition
           "sleep 5 && pnpm run storybook"
         ],
         "cwd": "libs/web",
