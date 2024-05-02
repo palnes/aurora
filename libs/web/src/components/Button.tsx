@@ -1,4 +1,4 @@
-import styles from "./button.module.css";
+import styles from './button.module.css';
 
 export interface ButtonProps {
   /**
@@ -12,7 +12,7 @@ export interface ButtonProps {
   /**
    * How large should the button be?
    */
-  size?: "small" | "medium" | "large";
+  size?: 'small' | 'medium' | 'large';
   /**
    * Button contents
    */
@@ -28,22 +28,22 @@ export interface ButtonProps {
  */
 export const Button = ({
   primary = false,
-  size = "medium",
+  size = 'medium',
   backgroundColor,
   label,
   ...props
 }: ButtonProps) => {
   const mode = primary
-    ? styles?.["storybook-button--primary"]
-    : styles?.["storybook-button--secondary"];
+    ? styles?.['storybook-button--primary']
+    : styles?.['storybook-button--secondary'];
   return (
     <button
       type="button"
       className={[
-        styles?.["storybook-button"],
+        styles?.['storybook-button'],
         styles?.[`storybook-button--${size}`],
         mode,
-      ].join(" ")}
+      ].join(' ')}
       style={{ backgroundColor }}
       {...props}
     >

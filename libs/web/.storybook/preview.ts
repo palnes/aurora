@@ -1,5 +1,5 @@
-import type { Preview } from "@storybook/react";
-import "@aurora/tokens/css";
+import type { Preview } from '@storybook/react';
+import '@aurora/tokens/css';
 
 const preview: Preview = {
   parameters: {

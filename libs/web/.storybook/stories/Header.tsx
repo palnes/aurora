@@ -1,5 +1,5 @@
-import { Button } from "./Button";
-import styles from "./header.module.css";
+import { Button } from './Button';
+import styles from './header.module.css';
 
 type User = {
   name: string;
@@ -19,7 +19,7 @@ export const Header = ({
   onCreateAccount,
 }: HeaderProps) => (
   <header>
-    <div className={styles["storybook-header"]}>
+    <div className={styles['storybook-header']}>
       <div>
         <svg
           width="32"

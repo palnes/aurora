@@ -1,17 +1,17 @@
-import remarkGfm from "remark-gfm";
+import remarkGfm from 'remark-gfm';
 
-import type { StorybookConfig } from "@storybook/react-vite";
+import type { StorybookConfig } from '@storybook/react-vite';
 
 const config: StorybookConfig = {
-  stories: ["../src/**/*.mdx", "../src/**/*.stories.@(js|jsx|mjs|ts|tsx)"],
+  stories: ['../src/**/*.mdx', '../src/**/*.stories.@(js|jsx|mjs|ts|tsx)'],
   addons: [
-    "@storybook/addon-onboarding",
-    "@storybook/addon-links",
-    "@storybook/addon-essentials",
-    "@chromatic-com/storybook",
-    "@storybook/addon-interactions",
+    '@storybook/addon-onboarding',
+    '@storybook/addon-links',
+    '@storybook/addon-essentials',
+    '@chromatic-com/storybook',
+    '@storybook/addon-interactions',
     {
-      name: "@storybook/addon-docs",
+      name: '@storybook/addon-docs',
       options: {
         mdxPluginOptions: {
           mdxCompileOptions: {
@@ -20,19 +20,19 @@ const config: StorybookConfig = {
         },
       },
     },
-    "@storybook/addon-a11y",
+    '@storybook/addon-a11y',
   ],
   framework: {
-    name: "@storybook/react-vite",
+    name: '@storybook/react-vite',
     options: {},
   },
   docs: {
-    autodocs: "tag",
+    autodocs: 'tag',
   },
   refs: {
     tokens: {
-      title: "Design Tokens",
-      url: "http://localhost:6007",
+      title: 'Design Tokens',
+      url: 'http://localhost:6007',
       expanded: false,
     },
   },
